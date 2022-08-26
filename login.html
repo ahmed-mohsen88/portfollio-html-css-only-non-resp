@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-image: url(sign\ in.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav>
+      <div><img src="portlogo.png" alt="logo" /></div>
+      <div>
+        <a href="index.html"><button>Home</button></a>
+        <a href="contact.html"><button>Contact</button></a>
+        <a href="about.html"><button>About</button></a>
+        <a href="login.html"><button>Sign in</button></a>
+      </div>
+    </nav>
+    <!-- main -->
+    <main style="background-color: #feac9f">
+      <h1>WELCOME</h1>
+    </main>
+    <!-- sign in form -->
+    <form
+      action="index.html"
+      class="signin"
+      method="post"
+      novalidate
+      autocomplete="on"
+    >
+      <fieldset>
+        <legend>Sign in</legend>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="enter your email" />
+        <br /><br />
+        <label for="pass">password</label>
+        <input type="password" id="pass" placeholder="enter your password" />
+        <br /><br />
+        <input type="submit" value="Sign in" />
+      </fieldset>
+    </form>
+    <br /><br /><br />
+    <!-- footer -->
+    <footer><img src="footer.png" alt="img footer" /></footer>
+  </body>
+</html>

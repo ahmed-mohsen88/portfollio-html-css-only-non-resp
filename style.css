@@ -1,0 +1,254 @@
+/* style for log in page */
+.signin {
+  background-color: #95e1ce;
+  margin: auto;
+  width: fit-content;
+  background-image: url(watercolor-stains-abstract-background_23-2149107181.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 20px 20px 20px;
+  margin-top: 50px;
+  font-size: larger;
+  font-weight: bold;
+}
+.signin input[type="text"] {
+  margin-left: 50px;
+}
+.signin input[type="password"] {
+  margin-left: 27px;
+}
+.signin input[type="submit"] {
+  /* use hsl */
+  color: hsl(0, 0%, 0%);
+  background-color: #98d4fe;
+  box-shadow: inset;
+  width: 150px;
+  text-shadow: 30px;
+  margin-left: 60px;
+  box-shadow: 5px 5px 5px;
+  font-weight: bold;
+}
+.signin input[type="submit"]:hover {
+  /* use cololr */
+  background-color: beige;
+}
+/* end of sign in page */
+
+/* style for home page */
+
+/* nav bar style */
+nav {
+  /* use hex */
+  background-color: #e27580;
+  text-decoration: none;
+  height: 50px;
+  width: 100%;
+  /* use rgb */
+  border: 1px solid rgb(0%, 0%, 0%);
+  box-shadow: 10px 10px 10px;
+}
+nav button {
+  color: black;
+  background-color: #b19bee;
+  box-shadow: inset;
+  width: 150px;
+  text-shadow: 30px;
+  margin-left: 30px;
+  box-shadow: 5px 5px 5px;
+  font-weight: bold;
+  float: right;
+  margin-top: 10px;
+}
+nav button:hover {
+  background-color: #2460d8;
+}
+nav img {
+  height: 46px;
+  width: 200px;
+}
+nav div {
+  display: inline;
+  height: 100%;
+}
+main h1 {
+  text-align: center;
+}
+main {
+  background-color: slategray;
+  text-decoration: none;
+  height: 80px;
+  width: 100%;
+  border: 1px solid black;
+}
+main h2 {
+  inline-size: 700px;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+}
+.secbutton button:hover {
+  background-color: #2460d8;
+  font-size: larger;
+}
+/* section grid style home page */
+.gridsec {
+  display: grid;
+  grid-template-rows: 30vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "left centerleft centerright right";
+  margin-top: 80px;
+  box-shadow: 5px 5px 5px;
+  font-weight: bold;
+}
+.gridsec div {
+  border: 1px solid black;
+  height: 300px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.gridsec img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.gridsec p {
+  text-align: center;
+}
+
+/* section  portfollio home page */
+.portsec {
+  display: grid;
+  grid-template-rows: 50vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "secleft secright";
+  margin-top: 80px;
+  box-shadow: 5px 5px 5px;
+  font-weight: bold;
+  background-color: #b19bee;
+}
+.secleft div {
+  border: 1px solid black;
+  height: 300px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px;
+  font-weight: bold;
+  border-radius: 50%;
+  grid-area: secleft;
+}
+.secright {
+  border: 1px solid black;
+  height: 300px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px;
+  font-weight: bold;
+  border-radius: 50%;
+  grid-area: secright;
+  text-align: center;
+}
+.secright p {
+  margin-top: 100px;
+}
+.secbutton {
+  padding-top: 50px;
+  display: inline;
+}
+.secbutton button {
+  box-shadow: 3px 3px 3px;
+  margin-top: 40px;
+  width: 45%;
+  border-radius: 50%;
+  height: 30px;
+}
+.secleft img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/* footer */
+footer {
+  width: 100%;
+}
+footer img {
+  width: 100%;
+}
+/* article */
+article {
+  text-align: center;
+  font-weight: bolder;
+}
+/* End of home page styling */
+
+/* contact */
+
+/* contact section */
+.seccontact {
+  display: grid;
+  grid-template-rows: 80vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "contleft contright";
+  border: 1px solid black;
+  margin: auto;
+  font-weight: bold;
+}
+.contleft {
+  grid-area: contleft;
+  border: 1px solid #bbf48f;
+  box-shadow: #bbf48f;
+  margin: 100px 100px;
+  padding-left: 170px;
+  border-radius: 50%;
+  height: 300px;
+  box-shadow: 3px 3px 3px;
+}
+.contright {
+  border: 1px solid #add6ff;
+  grid-area: contright;
+  margin: 40px 100px;
+  padding-left: 110px;
+  border-radius: 50%;
+  height: 500px;
+  box-shadow: 3px 3px 3px;
+}
+.contright img {
+  height: 40px;
+  width: 110px;
+}
+.contright input {
+  height: 20px;
+}
+.secfotright {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+}
+.formright {
+  margin-top: 60px;
+}
+
+/* about page */
+
+.about img {
+  position: absolute;
+  margin-left: 500px;
+  width: 40%;
+  height: 50%;
+  margin-top: 50px;
+  border-radius: 3%;
+}
+.txt {
+  position: absolute;
+  border: 1px solid wheat;
+  inline-size: 600px;
+  margin-top: 250px;
+  margin-left: 150px;
+  height: 200px;
+  box-shadow: 10px 10px 10px;
+  font-weight: bold;
+  background-color: white;
+  border-style: groove;
+  border-radius: 3%;
+}
